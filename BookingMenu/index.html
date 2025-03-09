@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Menu</title>
+    <link rel="stylesheet" href="../BookingMenu/reset.css" />
+    <link rel="stylesheet" href="../BookingMenu/bookingMenu.css" />
+    <script
+      src="https://kit.fontawesome.com/59d4d2b4fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="booking-menu">
+      <form>
+        <div class="checkbox">
+          <label
+            ><input type="checkbox" name="Aller simple" id="Aller-simple" />
+            Aller simple
+          </label>
+        </div>
+        <i class="fa-solid fa-list icon-list"></i>
+
+        <div class="border-destination">
+          <div>
+            <label>De : <input type="text" name="De" id="from" /></label>
+          </div>
+          <!--           Ajout d'un interligne          -->
+          <div class="destination-line"></div>
+          <div>
+            <label>A : <input type="text" name="A" id="destination" /></label>
+          </div>
+        </div>
+
+        <div class="border-date-picker">
+          <p>Aller</p>
+          <!--           Ajout d'un interligne          -->
+          <div class="date-picker"></div>
+          <p>Retour</p>
+        </div>
+
+        <div class="passenger">
+          <div>
+            <p>Adultes (16+)</p>
+            <div>
+              <button style="color: #ff6602">-</button><span>1</span
+              ><button style="color: #ff6602">+</button>
+            </div>
+          </div>
+          <div>
+            <p>Enfants (2-15)</p>
+            <div>
+              <button>-</button><span>0</span
+              ><button style="color: #ff6602">+</button>
+            </div>
+          </div>
+          <div>
+            <p>Bébés (<2)</p>
+            <div>
+              <button>-</button><span>0</span
+              ><button style="color: #ff6602">+</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="fly">Afficher les vols ></button>
+        </div>
+
+        <div class="end-container">
+          <p>A propos de l'assistance spéciale ></p>
+          <p>Nous compensons nos émissions carbone ></p>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "easyJet Rounded Book";
+  src: url("/assets/fonts/easyJetRoundedBook/easyJetRoundedBook.eot");
+  src: url("/assets/fonts/easyJetRoundedBook/easyJetRoundedBook.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/easyJetRoundedBook/easyJetRoundedBook.woff2")
+      format("woff2"),
+    url("/assets/fonts/easyJetRoundedBook/easyJetRoundedBook.woff")
+      format("woff"),
+    url("/assets/fonts/easyJetRoundedBook/easyJetRoundedBook.ttf")
+      format("truetype"),
+    url("/assets/fonts/easyJetRoundedBook/easyJetRoundedBook.svg#easyJetRoundedBook")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "easyJet Generation Headline";
+  src: url("/assets/fonts/easyJetGenerationHeadline/easyJetGenerationHeadline.eot");
+  src: url("/assets/fonts/easyJetGenerationHeadline/easyJetGenerationHeadline.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/easyJetGenerationHeadline/easyJetGenerationHeadline.woff2")
+      format("woff2"),
+    url("/assets/fonts/easyJetGenerationHeadline/easyJetGenerationHeadline.woff")
+      format("woff"),
+    url("/assets/fonts/easyJetGenerationHeadline/easyJetGenerationHeadline.ttf")
+      format("truetype"),
+    url("/assets/fonts/easyJetGenerationHeadline/easyJetGenerationHeadline.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

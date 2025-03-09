@@ -1,0 +1,154 @@
+/* Pour cibler tous les éléments afin d'avoir les bonnes dimensions pour que le padding soit pris en considération à l'intérieur de mon élément.  */
+* {
+  box-sizing: border-box;
+}
+
+.booking-menu {
+  width: 300px;
+  height: 430px;
+  padding: 12px;
+  font-size: 13px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.251);
+  background-color: #fff;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
+.checkbox input {
+  width: 30px;
+  height: 30px;
+}
+
+.booking-menu > form > div > label {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon-list {
+  font-size: 27px;
+  color: #ff6602;
+}
+
+.icon-position {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  gap: 10px;
+}
+
+.border-destination {
+  width: 240px;
+  margin-bottom: 10px;
+  border: 1px solid #dae2e4;
+  padding: 4px;
+}
+
+.destination-line {
+  width: 150px;
+  border-bottom: 1px solid #dae2e4;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  height: 30px;
+  border: none;
+}
+
+/*      -------      */
+
+.date-picker {
+  width: 240px;
+  margin-bottom: 10px;
+  border: 1px solid #dae2e4;
+  color: #ff6602;
+}
+
+/*      -L'interligne-      */
+.date-picker > div:nth-child(2) {
+  width: 150px;
+  border-bottom: 1px solid #dae2e4;
+  margin: 0 auto;
+}
+
+.date-picker > div:nth-child(odd) {
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+.date-picker div {
+  align-items: center;
+}
+
+.icon-calendar {
+  font-size: 25px;
+}
+
+/*      -------      */
+
+.passenger > div {
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter-div {
+  display: flex;
+  align-items: center;
+}
+
+.counter-div button {
+  padding: 8px;
+}
+
+.passenger button {
+  border: none;
+  background-color: unset;
+  font-size: 20px;
+}
+
+.passenger > div span {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  width: 30px;
+  text-align: center;
+}
+
+/*     buttons     */
+.booking-menu > button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6602;
+  border: none;
+  color: #dae2e4;
+}
+
+/*      -------      */
+
+.fly {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6602;
+  border-color: #ff6602;
+  border: none;
+  color: white;
+  border-radius: 3.5px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/*      -------      */
+
+.end-container {
+  color: #ff6602;
+}
+.end-container p:first-child {
+  margin-bottom: 10px;
+}
